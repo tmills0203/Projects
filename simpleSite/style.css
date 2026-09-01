@@ -1,0 +1,64 @@
+body {
+  background-color: #87ceeb;
+  color: #ffffff;
+}
+
+header {
+  text-align: center;
+}
+header span,
+footer span {
+  display: inline-block;
+  width: 2px;
+  height: 11px;
+  background-color: rgb(73, 72, 72);
+}
+header p,
+footer {
+  font-weight: 700;
+}
+a {
+  color: #48cd31;
+}
+
+h1 {
+  font-family: Georgia, serif;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p {
+  line-height: 1.5;
+}
+
+li {
+  list-style-type: none;
+}
+
+main > div {
+  border: 5px solid #48cd31;
+  padding: 30px;
+  margin: 20px auto;
+  width: 600px;
+}
+
+section,
+header,
+footer {
+  font-family: "Roboto", sans-serif;
+}
+
+img {
+  width: 45%;
+  margin-bottom: 5px;
+  float: right;
+}
+
+/* footer */
+
+ul {
+  text-align: center;
+}
+ul li {
+  display: inline;
+}
