@@ -1,0 +1,25 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background-color: rgb(51, 50, 50);
+}
+
+header,
+footer,
+section {
+  border: 2px solid lightgray;
+  height: 150px;
+}
+
+header,
+footer {
+  clear: both;
+}
+
+section {
+  height: 350px;
+  width: 33.3%;
+  float: right;
+}
