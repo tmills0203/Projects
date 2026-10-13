@@ -1,0 +1,223 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+#mainContainer {
+  margin: 0 auto;
+}
+
+.logo,
+.signin,
+ul,
+li {
+  float: left;
+}
+
+/* logo */
+.logo {
+  padding: 8px;
+  border-right: 1px solid lightgray;
+  height: 45px;
+}
+.logo span {
+  background-color: white;
+  font-size: 22px;
+  font-weight: bold;
+  padding: 1px 4px;
+  margin-right: 2px;
+}
+
+/* sign in */
+.signin {
+}
+
+/* nav */
+
+.navBar {
+  background-color: black;
+  height: 45px;
+  border-bottom: 1px solid #aaa;
+  clear: both;
+}
+
+.navContent {
+  width: 1057px;
+  margin: 0 auto;
+}
+
+.navBar ul {
+  padding: 0;
+}
+
+.navBar li {
+  list-style: none;
+}
+
+.navBar a {
+  color: white;
+  display: block;
+  height: 45px;
+  line-height: 45px;
+  padding: 0 15px;
+  text-decoration: none;
+  font-weight: bold;
+  border-right: 1px solid lightgray;
+}
+
+/* search */
+.search {
+  float: left;
+  padding: 7px 10px;
+}
+.search input {
+  height: 29px;
+  width: 130px;
+}
+
+/* after */
+.navBar::after {
+  content: "";
+  display: block;
+  clear: both;
+}
+
+/* header */
+
+#header h1 {
+  display: inline;
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 24px;
+  font-weight: bold;
+}
+#header p {
+  float: right;
+  line-height: 37px;
+  font-size: 22px;
+  color: #888;
+}
+
+/* img */
+#mainStory img,
+#articles img {
+  display: block;
+  padding: 7px 10px;
+}
+
+/* main story */
+/* MAIN STORY */
+#mainStory {
+  width: 50%;
+  float: left;
+}
+#mainOverlay h1 {
+  font-size: 32px;
+  font-weight: normal;
+  color: white;
+}
+#mainOverlay p {
+  font-size: 16px;
+  color: #ddd;
+}
+#mainOverlay span {
+  font-size: 14px;
+  color: #ccc;
+  text-transform: uppercase;
+}
+
+#mainStory a {
+  display: block;
+  position: relative;
+}
+
+#mainStory img {
+  width: 100%;
+  display: block;
+  padding: 7px 10px;
+}
+
+/* MAIN TEXT */
+#mainOverlay {
+  position: absolute;
+  left: 4%;
+  bottom: 5%;
+  width: 90%;
+}
+
+/* RIGHT SIDE */
+#articles {
+  width: 50%;
+  float: left;
+}
+
+.article {
+  width: 50%;
+  float: left;
+}
+
+.article a {
+  display: block;
+  position: relative;
+}
+
+.article img {
+  width: 100%;
+  display: block;
+  padding: 7px 10px;
+}
+
+/* SUB STORY */
+.subOverlay {
+  position: absolute;
+  left: 8%;
+  bottom: 10%;
+  width: 80%;
+}
+
+.subOverlay h3 {
+  font-size: 20px;
+  font-weight: normal;
+  color: white;
+}
+
+#mainStory p,
+.subOverlay h3 {
+  padding-bottom: 8px;
+}
+
+/* SPAN */
+
+.subOverlay span {
+  font-size: 14px;
+  color: #ccc;
+  text-transform: uppercase;
+  padding-left: 8px;
+}
+
+.middleEast,
+.health {
+  border-left: 2px solid red;
+  padding-left: 8px;
+}
+
+.canada {
+  border-left: 2px solid #007f9e;
+}
+
+.worklife {
+  border-left: 2px solid #00a6b2;
+}
+
+.culture {
+  border-left: 2px solid purple;
+}
+
+/* NEWS */
+.new {
+  width: 31.33%;
+  float: left;
+  margin-right: 20px;
+}
+.new img {
+  width: 100%;
+}
