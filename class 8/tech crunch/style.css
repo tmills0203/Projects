@@ -1,0 +1,37 @@
+nav,
+main,
+aside {
+  float: left;
+}
+
+nav {
+  width: 15%;
+}
+
+main {
+  width: 55%;
+}
+main img {
+  width: 100%;
+  height: auto;
+}
+
+aside {
+  width: 30%;
+}
+
+.theLatest {
+  clear: both;
+  border-bottom: 1px solid lightgray;
+}
+
+.article {
+  margin-bottom: 5px;
+}
+.article > * {
+  float: left;
+  width: 33.33%;
+}
+.article img {
+  width: 30%;
+}
